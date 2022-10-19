@@ -3,7 +3,7 @@ import styles from '../styles/modules/title.module.scss';
 
 function PageTitle() {
   let date = new Date();
-  let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+  let options = { weekday: 'long', month: 'long', day: 'numeric' };
   const today = date.toLocaleString('en-US', (options))
   return (
     <><p className={styles.title}>

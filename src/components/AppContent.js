@@ -49,7 +49,7 @@ function AppContent() {
         ) : (
           <motion.image variants={child} className={styles.emptyText}>
             <img src={Focus} alt="focus icon" />
-              <p>Do something great today 😊☀️</p>
+            <p>Do something great today 😊☀️</p>
 
           </motion.image>
         )}

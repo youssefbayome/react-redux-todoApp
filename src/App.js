@@ -12,7 +12,6 @@ function App() {
       <div className='container'>
         <PageTitle>
           TODO List
-
         </PageTitle>
         <div className={styles.app__wrapper}>
           <AppHeader />

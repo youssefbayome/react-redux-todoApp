@@ -97,7 +97,7 @@ function TodoModal({ type, modalOpen, setModalOpen, todo }) {
               onClick={() => setModalOpen(false)}
               role="button"
               tabIndex={0}
-              
+
               initial={{ top: 40, opacity: 0 }}
               animate={{ top: -10, opacity: 1 }}
               exit={{ top: 40, opacity: 0 }}
@@ -119,7 +119,7 @@ function TodoModal({ type, modalOpen, setModalOpen, todo }) {
                   onChange={(e) => setTitle(e.target.value)}
                 />
               </label>
-             
+
               <div className={styles.buttonContainer}>
                 <Button type="submit" variant="primary">
                   {type === 'add' ? 'Add Task' : 'Update Task'}
