@@ -15,8 +15,7 @@ function Button({ type, variant = 'primary', children, ...rest }) {
         styles.button,
         styles[`button--${buttonTypes[variant]}`],
       ])}
-      {...rest}
-    >
+      {...rest}>
       {children}
     </button>
   );
@@ -27,8 +26,7 @@ function SelectButton({ children, id, ...rest }) {
     <select
       id={id}
       className={getClasses([styles.button, styles.button__select])}
-      {...rest}
-    >
+      {...rest}>
       {children}
     </select>
   );
